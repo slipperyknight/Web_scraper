@@ -1,5 +1,5 @@
 from bs4 import BeautifulSoup
-
+#FUNCTION - ArticleParser is responsible for parsing the rendered HTML content to extract article information such as title, author, publication date, and main content. It uses BeautifulSoup to navigate the HTML structure and identify relevant elements based on tags and classes. The parser returns structured data that can be easily stored in a database or used for further processing. It also handles edge cases where certain information may be missing or formatted differently across websites, ensuring that the parsing logic is adaptable to different website structures and can be easily updated as needed.
 class ArticleParser:
     """
     Responsible for -
