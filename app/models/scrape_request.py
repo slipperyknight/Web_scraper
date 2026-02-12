@@ -3,7 +3,7 @@ from urllib.parse import urlparse
 import ipaddress
 
 class ScraperRequest(BaseModel):
-    url= HttpUrl
+    url : HttpUrl
 
     @field_validator("url") 
     @classmethod
