@@ -6,3 +6,4 @@ class Article(BaseModel):
     url : HttpUrl
     source: str
     scraped_at: datetime
+    

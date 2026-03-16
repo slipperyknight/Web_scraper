@@ -12,3 +12,5 @@ articles_collection.create_index(
     [("title",ASCENDING),("source",ASCENDING)],
     unique = True   
 )
+
+jobs_collection = db["scrape_jobs"]
